@@ -1,4 +1,5 @@
-// this program took me two days to write, finally my logic wins
+//this program append a node to the end of a linked list 
+
 
 #include<stdio.h>
 #include<stdlib.h>
