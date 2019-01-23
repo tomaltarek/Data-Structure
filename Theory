@@ -1,0 +1,8 @@
+In our code we used some technolgoy that requires some backgroud theory: 
+
+
+Linked list: 
+A linked list is made of nodes, the last item of the node is a pointer to the next node. This list stays at heap, therefore linked list can be increased as wish. Unlike array , linked lists are not contiguous which means nodes can be hovered anywhere in RAM. Therefore linked list is efficient and good way of using memory. 
+In C, a struct is created to represent a node, the struct is kind of recursivd in that the item which is most developers name as next is the pointer of the same struct. 
+A global variable (most people name it as head) needs be created to hold the first element of the list, although at the very first it should be assigned null. When the first node is created in the heap, head should hold the address of that node and should not be changed throughout the program. head is the only reference point of the list. 
+To find location where to add/delete a node, usually a while loop is used. To add a node we al least need two variables, one to create a new node, and other is for dealing with the head.
